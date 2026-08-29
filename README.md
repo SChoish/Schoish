@@ -18,15 +18,21 @@ Information and Intelligence Systems Lab (IISL) · Advisor: Prof. Songnam Hong
 I study **reinforcement learning and sequential decision making**, focusing on
 iterative policy improvement and generative long-horizon planning.
 
-My current work analyzes how the proximal step size **τ** shapes multi-step
-policy refinement and extends **PathBridger** toward **PathFlower**, a framework
-for generating goal-conditioned state flows.
+My current work studies **Multi-step Proximal Policy Improvement (MPI)**, which
+refines an offline policy through a short sequence of critic-guided proximal
+steps. Each step re-centers the proximity anchor at the preceding policy,
+providing path-wise control of movement beyond a fixed data anchor. I analyze
+how **τ**, the effective discretization step size, balances conservative local
+movement against farther but more critic-error-sensitive refinement. In
+parallel, I am extending **PathBridger** toward **PathFlower**, a framework for
+generating goal-conditioned state flows.
 
 ### Current directions
 
 - 🌀 **Multi-step Policy Improvement**  
-  Understanding local, finite-step, and over-refinement regimes through
-  τ sweeps and mathematical analysis.
+  Treating behavior-regularized offline actor updates as proximal steps and
+  composing re-centered refinements. I study when τ keeps updates local,
+  enables useful finite-step movement, or enters critic-error-sensitive regions.
 
 - 🌉 **PathBridger**  
   Generating state-space bridges for long-horizon offline goal-conditioned
@@ -41,7 +47,7 @@ for generating goal-conditioned state flows.
 | Project | Focus |
 |---|---|
 | [**PathBridger**](https://github.com/SChoish/PathBridger) | Subgoal bridges for long-horizon offline goal-conditioned RL |
-| [**MPI**](https://github.com/SChoish/MPI) | Multi-step proximal policy improvement and refinement regimes |
+| [**MPI**](https://github.com/SChoish/MPI) | Re-centered proximal refinements for offline policy improvement |
 | [**POGO**](https://github.com/SChoish/POGO) | Geometric policy optimization for offline reinforcement learning |
 
 ## Background
