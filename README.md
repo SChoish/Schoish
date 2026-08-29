@@ -23,9 +23,11 @@ refines an offline policy through a short sequence of critic-guided proximal
 steps. Each step re-centers the proximity anchor at the preceding policy,
 providing path-wise control of movement beyond a fixed data anchor. I analyze
 how **τ**, the effective discretization step size, balances conservative local
-movement against farther but more critic-error-sensitive refinement. In
-parallel, I am extending **PathBridger** toward **PathFlower**, a framework for
-generating goal-conditioned state flows.
+movement against farther but more critic-error-sensitive refinement. This
+direction develops ideas first explored in **POGO**, my earlier study of
+transport-map policies and JKO/Sinkhorn-based policy flows. In parallel, I am
+extending **PathBridger** toward **PathFlower**, a framework for generating
+goal-conditioned state flows.
 
 ### Current directions
 
@@ -48,7 +50,7 @@ generating goal-conditioned state flows.
 |---|---|
 | [**PathBridger**](https://github.com/SChoish/PathBridger) | Subgoal bridges for long-horizon offline goal-conditioned RL |
 | [**MPI**](https://github.com/SChoish/MPI) | Re-centered proximal refinements for offline policy improvement |
-| [**POGO**](https://github.com/SChoish/POGO) | Geometric policy optimization for offline reinforcement learning |
+| [**POGO**](https://github.com/SChoish/POGO) | Precursor to MPI: transport-based, JKO-style policy optimization |
 
 ## Background
 
