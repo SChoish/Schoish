@@ -1,4 +1,4 @@
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:193F73,100:0B7C86&height=200&section=header&text=Soohyun%20Choi&fontSize=54&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Reinforcement%20Learning%20%7C%20Sequential%20Decision%20Making&descAlignY=58&descSize=17)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:193F73,100:0B7C86&height=200&section=header&text=Soohyun%20Choi&fontSize=54&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Reinforcement%20Learning%20%7C%20Generative%20Models%20%7C%20Stochastic%20Processes&descAlignY=58&descSize=14)
 
 <div align="center">
 
@@ -15,8 +15,11 @@ Information and Intelligence Systems Lab (IISL) · Advisor: Prof. Songnam Hong
 
 ## Research
 
-I study **reinforcement learning and sequential decision making**, focusing on
-iterative policy improvement and generative long-horizon planning.
+My research interests lie in **reinforcement learning**, particularly in the
+mathematical and geometric analysis of learning algorithms. I am also interested
+in developing new algorithms and modeling frameworks using **generative models**
+and **stochastic processes**, especially for goal-conditioned and long-horizon
+control.
 
 My current work studies **Multi-step Proximal Policy Improvement (MPI)**, which
 refines an offline policy through a short sequence of critic-guided proximal
