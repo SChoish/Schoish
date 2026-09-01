@@ -51,7 +51,7 @@ goal-conditioned state flows.
 
 | Project | Focus |
 |---|---|
-| [**PathBridger**](https://github.com/SChoish/PathBridger) | Subgoal bridges for long-horizon offline goal-conditioned RL |
+| [**PathBridger**](https://github.com/SChoish/PathBridger) | Subgoal bridges for long-horizon offline goal-conditioned RL · [arXiv](https://arxiv.org/abs/2608.29061) |
 | [**MPI**](https://github.com/SChoish/MPI) | Re-centered proximal refinements for offline policy improvement |
 | [**POGO**](https://github.com/SChoish/POGO) | Precursor to MPI: transport-based, JKO-style policy optimization |
 
