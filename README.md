@@ -21,27 +21,28 @@ in developing new algorithms and modeling frameworks using **generative models**
 and **stochastic processes**, especially for goal-conditioned and long-horizon
 control.
 
-My current work studies **Multi-step Proximal Policy Improvement (MPI)**, which
-refines an offline policy through a short sequence of critic-guided proximal
-steps. Each step re-centers the proximity anchor at the preceding policy,
-providing path-wise control of movement beyond a fixed data anchor. I analyze
-how **τ**, the effective discretization step size, balances conservative local
-movement against farther but more critic-error-sensitive refinement. This
-direction develops ideas first explored in **POGO**, my earlier study of
-transport-map policies and JKO/Sinkhorn-based policy flows. In parallel, I am
+My work on [**Multi-step Proximal Policy Improvement (MPI)**](https://github.com/SChoish/MPI)
+interprets behavior-anchored actor updates as proximal steps and composes
+sequential re-centered refinements. I study how policy geometry, step size, and
+critic error shape finite-step improvement. The paper is an arXiv preprint; its
+link will be added when the identifier is assigned.
+
+My current research extends this direction through **MART**, which studies how
+refinement depth changes critic-facing bootstrap exposure and deployment reach
+under a fixed policy-improvement horizon, and **AMO**, which learns the total
+proximal-flow horizon through a bilevel outer objective. In parallel, I am
 extending **PathBridger** toward **PathFlower**, a framework for generating
 goal-conditioned state flows.
 
 ### Current directions
 
-- 🌀 **Multi-step Policy Improvement**  
-  Treating behavior-regularized offline actor updates as proximal steps and
-  composing re-centered refinements. I study when τ keeps updates local,
-  enables useful finite-step movement, or enters critic-error-sensitive regions.
+- 🧭 **MART: Multi-Step Actor Refinement Trajectories**  
+  Dividing a fixed policy-improvement horizon across persistent local actors to
+  study the stability frontier, critic-facing exposure, and deployment reach.
 
-- 🌉 **PathBridger**  
-  Generating state-space bridges for long-horizon offline goal-conditioned
-  reinforcement learning.
+- ⚙️ **AMO: Adaptive Manifold Optimization**  
+  Learning the total proximal-flow horizon from an offline bilevel objective
+  and realizing it through sequential re-centered steps.
 
 - 🌸 **PathFlower**  
   Extending explicit subgoal bridges toward final-goal-conditioned generative
@@ -52,8 +53,10 @@ goal-conditioned state flows.
 | Project | Focus |
 |---|---|
 | [**PathBridger**](https://github.com/SChoish/PathBridger) | Subgoal bridges for long-horizon offline goal-conditioned RL · [arXiv](https://arxiv.org/abs/2608.29061) |
-| [**MPI**](https://github.com/SChoish/MPI) | Re-centered proximal refinements for offline policy improvement |
+| [**MPI**](https://github.com/SChoish/MPI) | Re-centered proximal refinements for offline policy improvement · arXiv link forthcoming |
 | [**POGO**](https://github.com/SChoish/POGO) | Precursor to MPI: transport-based, JKO-style policy optimization |
+
+<!-- Replace “arXiv link forthcoming” with the paper link after announcement. -->
 
 ## Background
 
