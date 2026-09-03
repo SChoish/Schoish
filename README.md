@@ -40,7 +40,7 @@ goal-conditioned state flows.
   Dividing a fixed policy-improvement horizon across persistent local actors to
   study the stability frontier, critic-facing exposure, and deployment reach.
 
-- ⚙️ **AMO: Adaptive Manifold Optimization**  
+- ⚙️ **AMO: Adaptive Multiscale Policy Optimization in Offline Reinforcement Learning**  
   Learning the total proximal-flow horizon from an offline bilevel objective
   and realizing it through sequential re-centered steps.
 
