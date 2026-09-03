@@ -41,8 +41,9 @@ goal-conditioned state flows.
   study the stability frontier, critic-facing exposure, and deployment reach.
 
 - ⚙️ **AMO: Adaptive Multiscale Policy Optimization in Offline Reinforcement Learning**  
-  Learning the total proximal-flow horizon from an offline bilevel objective
-  and realizing it through sequential re-centered steps.
+  Learning the total policy-improvement horizon `T` from an offline bilevel
+  objective with a two-scale structure: the critic uses the local `T/N` policy,
+  while the actor represents the full-horizon `T` policy.
 
 - 🌸 **PathFlower**  
   Extending explicit subgoal bridges toward final-goal-conditioned generative
