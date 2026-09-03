@@ -8,7 +8,7 @@ Integrated M.S./Ph.D. student in Electronic Engineering at Hanyang University
 Information and Intelligence Systems Lab (IISL) · Advisor: Prof. Songnam Hong
 
 [![Website](https://img.shields.io/badge/Website-0B7C86?style=flat-square&logo=googlechrome&logoColor=white)](https://schoish.github.io/)
-[![CV](https://img.shields.io/badge/CV-193F73?style=flat-square&logo=readme&logoColor=white)](https://schoish.github.io/assets/Soohyun_Choi_CV.pdf)
+[![CV](https://img.shields.io/badge/CV-193F73?style=flat-square&logo=readme&logoColor=white)](https://schoish.github.io/assets/Soohyun_Choi_CV.pdf?v=20260904)
 [![Email](https://img.shields.io/badge/Email-C43D4D?style=flat-square&logo=gmail&logoColor=white)](mailto:petersun0221@hanyang.ac.kr)
 
 </div>
@@ -24,8 +24,7 @@ control.
 My work on [**Multi-step Proximal Policy Improvement (MPI)**](https://github.com/SChoish/MPI)
 interprets behavior-anchored actor updates as proximal steps and composes
 sequential re-centered refinements. I study how policy geometry, step size, and
-critic error shape finite-step improvement. The paper is an arXiv preprint; its
-link will be added when the identifier is assigned.
+critic error shape finite-step improvement. The manuscript is available as a preprint.
 
 My current research extends this direction through **MART**, which studies how
 refinement depth changes critic-facing bootstrap exposure and deployment reach
@@ -54,10 +53,9 @@ goal-conditioned state flows.
 | Project | Focus |
 |---|---|
 | [**PathBridger**](https://github.com/SChoish/PathBridger) | Subgoal bridges for long-horizon offline goal-conditioned RL · [arXiv](https://arxiv.org/abs/2608.29061) |
-| [**MPI**](https://github.com/SChoish/MPI) | Re-centered proximal refinements for offline policy improvement · arXiv link forthcoming |
+| [**MPI**](https://github.com/SChoish/MPI) | Re-centered proximal refinements for offline policy improvement |
 | [**POGO**](https://github.com/SChoish/POGO) | Precursor to MPI: transport-based, JKO-style policy optimization |
 
-<!-- Replace “arXiv link forthcoming” with the paper link after announcement. -->
 
 ## Background
 
