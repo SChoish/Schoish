@@ -47,7 +47,7 @@ advantage-weighted policy extraction.
 |---|---|
 | [**PathBridger**](https://github.com/SChoish/PathBridger) | Subgoal bridges for long-horizon offline goal-conditioned RL · [arXiv](https://arxiv.org/abs/2608.29061) |
 | [**MPI**](https://github.com/SChoish/MPI) | Is One Step Enough for Offline Policy Improvement? · [arXiv v2](https://arxiv.org/abs/2609.03842v2) |
-| [**RAPO**](https://github.com/seonvin0319/AMO) | Role-Adaptive Policy Optimization for Offline Reinforcement Learning · [arXiv](https://arxiv.org/abs/2609.40149) |
+| **RAPO** | Role-Adaptive Policy Optimization for Offline Reinforcement Learning · [arXiv](https://arxiv.org/abs/2609.40149) |
 
 
 ## Background
