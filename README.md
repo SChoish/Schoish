@@ -8,7 +8,7 @@ Integrated M.S./Ph.D. student in Electronic Engineering at Hanyang University
 Information and Intelligence Systems Lab (IISL) · Advisor: Prof. Songnam Hong
 
 [![Website](https://img.shields.io/badge/Website-0B7C86?style=flat-square&logo=googlechrome&logoColor=white)](https://schoish.github.io/)
-[![CV](https://img.shields.io/badge/CV-193F73?style=flat-square&logo=readme&logoColor=white)](https://schoish.github.io/assets/Soohyun_Choi_CV.pdf?v=20261001b)
+[![CV](https://img.shields.io/badge/CV-193F73?style=flat-square&logo=readme&logoColor=white)](https://schoish.github.io/assets/Soohyun_Choi_CV.pdf?v=20261031)
 [![Email](https://img.shields.io/badge/Email-C43D4D?style=flat-square&logo=gmail&logoColor=white)](mailto:petersun0221@hanyang.ac.kr)
 
 </div>
@@ -35,11 +35,10 @@ using local policy improvement and target stability, respectively. For IQL, it
 retains the original value updates and adapts the inverse temperature of
 advantage-weighted policy extraction.
 
-### Current directions
+### Ongoing research: Extensions of PathBridger
 
-- 🌸 **PathFlower**  
-  Extending PathBridger's explicit subgoal bridges toward final-goal-conditioned
-  generative state flows for long-horizon offline goal-conditioned RL.
+- **Skill Learning and Composition:** Investigating how to learn reusable skills from offline trajectories and compose them for long-horizon goal-conditioned tasks.
+- **Latent-Space Bridge Planning:** Exploring learned representations and geometrically structured latent spaces for goal-conditioned bridge generation and short-horizon execution.
 
 ## Selected projects
 
